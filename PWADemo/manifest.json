@@ -1,0 +1,36 @@
+{
+	"name": "PWA-WepApp",
+	"short_name": "PWA-WepApp",
+	"description": "Demo for progressive web app",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#f5f5f5",
+	"theme_color": "#29434d",
+	"icons": [
+		{
+			"src": "/Assets/icons/android-chrome-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/Assets/icons/android-chrome-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+            "src": "/Assets/icons/android-maskable-192x192.png",
+            "type": "image/png",
+			"sizes": "192x192",
+			"purpose": "maskable"
+        },
+        {
+            "src": "/Assets/icons/android-maskable-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+			"purpose": "maskable"
+        }
+	],
+	"gcm_sender_id": "1",
+	"gcm_user_visible_only": true
+}
