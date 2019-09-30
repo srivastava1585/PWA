@@ -1,9 +1,11 @@
 var cacheName = 'PWA';
 
 var filesToCache = [
-
 '/',
 '/Account/Login',
+'/Home/About',
+'/Home/Contact',
+'/Account/Register',
 '/Scripts/main.js',
 '/Content/bootstrap.css',
 '/Content/site.css',
