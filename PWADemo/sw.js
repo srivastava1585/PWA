@@ -3,10 +3,14 @@ var cacheName = 'PWA';
 var filesToCache = [
 
 '/',
-
 '/Account/Login',
-
-'/Scripts/main.js'];
+'/Scripts/main.js',
+'/Content/bootstrap.css',
+'/Content/site.css',
+'/Scripts/modernizr-2.6.2.js',
+'/Scripts/jquery-1.10.2.min.js',
+'/Scripts/bootstrap.js',
+'/Scripts/respond.js'];
 
 self.addEventListener('install', function (e) {
 
